@@ -3,7 +3,7 @@ var monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
 var app = express();
-var port = 8080;
+var port = 80;
 app.get('/', function(req, res){
 	res.status(200);
 	res.send('Timestamp Server.');
